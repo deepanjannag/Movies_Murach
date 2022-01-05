@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "cdc87c8d-9128-47b3-ace3-b3743e0c3e3c": {
+      "ProjectGuid": "cdc87c8d-9128-47b3-ace3-b3743e0c3e3c",
+      "DisplayName": "MovieList",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
