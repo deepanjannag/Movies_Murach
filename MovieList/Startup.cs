@@ -51,7 +51,11 @@ namespace MovieList
                 //{
                 //    await context.Response.WriteAsync("Hello World!");
                 //});
-                endpoints.MapDefaultControllerRoute();
+                //endpoints.MapDefaultControllerRoute();
+                endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller=Home}/{action=Index}/{id?}");
+
             });
         }
     }
