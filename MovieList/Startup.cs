@@ -46,6 +46,7 @@ namespace MovieList
             app.UseRouting();
 
             //authentication & authorization
+            //dummy comment
 
             app.UseEndpoints(endpoints =>
             {
